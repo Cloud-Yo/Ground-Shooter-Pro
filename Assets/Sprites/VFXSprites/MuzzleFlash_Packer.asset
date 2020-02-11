@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6c88e76926c9a64b92874e628e03a83, type: 3}
+  m_Name: MuzzleFlash_Packer
+  m_EditorClassIdentifier: 
+  m_Texture: {fileID: 2800000, guid: d996997d50fec044f9c5bff4a9ea1c42, type: 3}
+  m_Padding: 1
+  m_MaxSize: 4096
+  m_PackingMethod: 0
+  m_DefaultPivot: 0
+  m_DefaultCustomPivot: {x: 0.5, y: 0.5}
+  m_Sprites:
+  - source: {fileID: 21300000, guid: 63b17c5fdf6432149b826b4408563e9c, type: 3}
+    targetSprite: {fileID: 3983335348983753350, guid: d996997d50fec044f9c5bff4a9ea1c42,
+      type: 3}
+  - source: {fileID: 21300000, guid: 448278dbd70b9904fa5765cc85e4acce, type: 3}
+    targetSprite: {fileID: -2376531368978605255, guid: d996997d50fec044f9c5bff4a9ea1c42,
+      type: 3}
+  - source: {fileID: 21300000, guid: 7a086a92f2d31ef44a9a7191e48ab286, type: 3}
+    targetSprite: {fileID: -1719832604461453501, guid: d996997d50fec044f9c5bff4a9ea1c42,
+      type: 3}
+  - source: {fileID: 21300000, guid: 357dded5e99e6f642823a13b8d8144dd, type: 3}
+    targetSprite: {fileID: 6463036802426822871, guid: d996997d50fec044f9c5bff4a9ea1c42,
+      type: 3}
+  - source: {fileID: 21300000, guid: 63f86eaf369aa01478f0bb414da9e3ba, type: 3}
+    targetSprite: {fileID: -6569073202597253915, guid: d996997d50fec044f9c5bff4a9ea1c42,
+      type: 3}
+  - source: {fileID: 21300000, guid: c6119cc41ff282944b026cc310482245, type: 3}
+    targetSprite: {fileID: 7782481327361821657, guid: d996997d50fec044f9c5bff4a9ea1c42,
+      type: 3}
+  - source: {fileID: 21300000, guid: 33aab404f32828c4c95ff015d1ac14b0, type: 3}
+    targetSprite: {fileID: -4956117602047532835, guid: d996997d50fec044f9c5bff4a9ea1c42,
+      type: 3}
+  m_PendingActions: []

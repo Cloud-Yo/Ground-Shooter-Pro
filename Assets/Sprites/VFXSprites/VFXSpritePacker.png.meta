@@ -1,0 +1,2782 @@
+fileFormatVersion: 2
+guid: ffcb42571997db04dbec1a0529399270
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8387253566104560277
+    second: tankExplosion008
+  - first:
+      213: -1583580244224068549
+    second: tankExplosion001
+  - first:
+      213: -7166109928073935150
+    second: tankExplosion002
+  - first:
+      213: 5515551975472094330
+    second: tankExplosion003
+  - first:
+      213: -306034416258045558
+    second: tankExplosionCrater001
+  - first:
+      213: 2824243551776717598
+    second: tankExplosion013
+  - first:
+      213: -7445792835612916695
+    second: tankExplosion012
+  - first:
+      213: -3978601014248809044
+    second: tankExplosion011
+  - first:
+      213: -8357781293290275414
+    second: tankExplosion004
+  - first:
+      213: -597484568755977422
+    second: tankExplosion005
+  - first:
+      213: -4663551328808813366
+    second: tankExplosion006
+  - first:
+      213: 8319467136324047586
+    second: tankExplosion007
+  - first:
+      213: -5580133383460262522
+    second: tankExplosion010
+  - first:
+      213: 1135976283243915286
+    second: tankExplosion009
+  - first:
+      213: -9124510986924432854
+    second: powerUpGearBG01
+  - first:
+      213: 7886793545378730105
+    second: powerUpGearBG02
+  - first:
+      213: -5126731392267889858
+    second: powerUpShield01
+  - first:
+      213: -9057141109717331186
+    second: powerUpSpeed01
+  - first:
+      213: 3584457070558300209
+    second: powerUpTripShot01
+  - first:
+      213: 1146140148414069242
+    second: fireLoop001_14
+  - first:
+      213: -2078833439654965011
+    second: fireLoop001_13
+  - first:
+      213: -1095985846842371733
+    second: fireLoop001_12
+  - first:
+      213: -6432204882917231395
+    second: fireLoop001_10
+  - first:
+      213: 4919300390600369593
+    second: fireLoop001_9
+  - first:
+      213: -6426262145162933707
+    second: fireLoop001_8
+  - first:
+      213: 2934593193941972622
+    second: fireLoop001_11
+  - first:
+      213: 1114343488169879533
+    second: fireLoop001_6
+  - first:
+      213: 2549383993473520116
+    second: fireLoop001_5
+  - first:
+      213: -5118261293438822513
+    second: fireLoop001_4
+  - first:
+      213: -901838469703549950
+    second: fireLoop001_3
+  - first:
+      213: -1170233371828295700
+    second: fireLoop001_2
+  - first:
+      213: 9054382491603856212
+    second: fireLoop001_1
+  - first:
+      213: -648131741954188369
+    second: fireLoop001_0
+  - first:
+      213: 9222583359396488268
+    second: fireLoop001_7
+  - first:
+      213: -8647645293461975700
+    second: NewExplosion010002-sheet_0
+  - first:
+      213: 5952896531045740418
+    second: NewExplosion010002-sheet_1
+  - first:
+      213: 2491055770904774231
+    second: NewExplosion010002-sheet_2
+  - first:
+      213: 3051962588311863410
+    second: NewExplosion010002-sheet_4
+  - first:
+      213: -6673418642626401590
+    second: NewExplosion010002-sheet_5
+  - first:
+      213: 3599133575035779524
+    second: NewExplosion010002-sheet_3
+  - first:
+      213: 2457322372149517515
+    second: NewExplosion010002-sheet_7
+  - first:
+      213: 3694837432113292040
+    second: NewExplosion010002-sheet_8
+  - first:
+      213: 1680857506130464729
+    second: NewExplosion010002-sheet_9
+  - first:
+      213: -617239601615043550
+    second: NewExplosion010002-sheet_6
+  - first:
+      213: 577503608490162572
+    second: tankDustSprite004
+  - first:
+      213: -3359534447800506361
+    second: tankDustSprite005
+  - first:
+      213: 7226507656914113656
+    second: tankDustSprite006
+  - first:
+      213: 1206344436994820996
+    second: tankDustSprite007
+  - first:
+      213: -3804886278696053966
+    second: tankDustSprite008
+  - first:
+      213: -4974789774182600217
+    second: tankShellSpin009
+  - first:
+      213: 4315700565559484315
+    second: tankShellSpin008
+  - first:
+      213: 4811869195236685183
+    second: tankShellSpin006
+  - first:
+      213: -7461835905064638972
+    second: tankShellSpin005
+  - first:
+      213: 7500751191488834409
+    second: tankShellSpin004
+  - first:
+      213: -9147255302388435361
+    second: tankShellSpin003
+  - first:
+      213: 800426618731054175
+    second: tankDustSprite003
+  - first:
+      213: 1510183005646285593
+    second: tankShellSpin002
+  - first:
+      213: -8577297915191001701
+    second: tankShellSpin001
+  - first:
+      213: 2727628576929668567
+    second: tankShellSpin007
+  - first:
+      213: -5576121119349902598
+    second: tankDustSprite002
+  - first:
+      213: -4956117602047532835
+    second: tankSmokeSprite007
+  - first:
+      213: 7782481327361821657
+    second: tankSmokeSprite006
+  - first:
+      213: -6569073202597253915
+    second: tankSmokeSprite005
+  - first:
+      213: 3983335348983753350
+    second: tankSmokeSprite001
+  - first:
+      213: 8352684888530975718
+    second: tankDustSprite001
+  - first:
+      213: -1719832604461453501
+    second: tankSmokeSprite003
+  - first:
+      213: 6463036802426822871
+    second: tankSmokeSprite004
+  - first:
+      213: -2376531368978605255
+    second: tankSmokeSprite002
+  - first:
+      213: -2851744641551341282
+    second: tankTrackPrintSprite03
+  - first:
+      213: 4721250177457812701
+    second: AlienSpitSplash001_6
+  - first:
+      213: 6228005508795545732
+    second: AlienSpitSplash001_5
+  - first:
+      213: 4389712542338149966
+    second: AlienSpitSplash001_4
+  - first:
+      213: 4727233582112103941
+    second: AlienSpitSplash001_3
+  - first:
+      213: -1813251258525093713
+    second: AlienSpitSplash001_2
+  - first:
+      213: -4056444989451902243
+    second: AlienSpitSplash001_1
+  - first:
+      213: 1999161989639940620
+    second: AlienSpitSplash001_0
+  - first:
+      213: -8777787063727482899
+    second: TrackPrintSpriteSheet01_6
+  - first:
+      213: 2605810700500058675
+    second: TrackPrintSpriteSheet01_8
+  - first:
+      213: 6245898413053251527
+    second: TrackPrintSpriteSheet01_5
+  - first:
+      213: 1242366681711113606
+    second: TrackPrintSpriteSheet01_9
+  - first:
+      213: -4157613463971415195
+    second: TrackPrintSpriteSheet01_10
+  - first:
+      213: -7104272783103645984
+    second: TrackPrintSpriteSheet01_11
+  - first:
+      213: -240704813228579935
+    second: TrackPrintSpriteSheet01_12
+  - first:
+      213: -8245856500522927099
+    second: TrackPrintSpriteSheet01_13
+  - first:
+      213: -57383737228948142
+    second: TrackPrintSpriteSheet01_7
+  - first:
+      213: -4016930742731612855
+    second: TrackPrintSpriteSheet01_4
+  - first:
+      213: 5326440238252077071
+    second: TrackPrintSpriteSheet01_15
+  - first:
+      213: -7397606826831086726
+    second: TrackPrintSpriteSheet01_2
+  - first:
+      213: 308283957686973491
+    second: TrackPrintSpriteSheet01_1
+  - first:
+      213: -8684985130356019004
+    second: TrackPrintSpriteSheet01_0
+  - first:
+      213: -436606510146212625
+    second: TrackPrintSpriteSheet01_14
+  - first:
+      213: 3083435933383954905
+    second: TrackPrintSpriteSheet01_3
+  - first:
+      213: -3987319119243698320
+    second: AlienSpit001
+  - first:
+      213: 8909623263052705938
+    second: TankBullet01
+  - first:
+      213: -8614523543851218570
+    second: FlickerParticles001_4
+  - first:
+      213: 2660536732322245208
+    second: FlickerParticles001_3
+  - first:
+      213: 4506348284503719651
+    second: FlickerParticles001_2
+  - first:
+      213: 996190878212930633
+    second: FlickerParticles001_1
+  - first:
+      213: 3179400302584602962
+    second: FlickerParticles001_0
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 4096
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 4
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tankExplosion008
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5926ac84ea2856470800000000000000
+      internalID: 8387253566104560277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tankExplosion001
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 193
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b34b2b5782ef50ae0800000000000000
+      internalID: -1583580244224068549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tankExplosion002
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 386
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d6c0c3fcfcdc8c90800000000000000
+      internalID: -7166109928073935150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tankExplosion003
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 579
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7cd73e8c4d2b8c40800000000000000
+      internalID: 5515551975472094330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tankExplosionCrater001
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 772
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8925e1e15fb0cbf0800000000000000
+      internalID: -306034416258045558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tankExplosion013
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 0
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1bb6defb8ab13720800000000000000
+      internalID: 2824243551776717598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tankExplosion012
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 193
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 924c4229dda3ba890800000000000000
+      internalID: -7445792835612916695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tankExplosion011
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 386
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cadd0b2057b29c8c0800000000000000
+      internalID: -3978601014248809044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tankExplosion004
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 579
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aad3707f132330c80800000000000000
+      internalID: -8357781293290275414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tankExplosion005
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 772
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 233c58843fe45b7f0800000000000000
+      internalID: -597484568755977422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tankExplosion006
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 0
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: accbc8666ccb74fb0800000000000000
+      internalID: -4663551328808813366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tankExplosion007
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 193
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e29125384fa47370800000000000000
+      internalID: 8319467136324047586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tankExplosion010
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 386
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68d6d87a0426f82b0800000000000000
+      internalID: -5580133383460262522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tankExplosion009
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 579
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 618a504396cc3cf00800000000000000
+      internalID: 1135976283243915286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: powerUpGearBG01
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 772
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a226833e9993f5180800000000000000
+      internalID: -9124510986924432854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: powerUpGearBG02
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 772
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 970942981f4837d60800000000000000
+      internalID: 7886793545378730105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: powerUpShield01
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e33570916f03ad8b0800000000000000
+      internalID: -5126731392267889858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: powerUpSpeed01
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 129
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0316b2c5229e4280800000000000000
+      internalID: -9057141109717331186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: powerUpTripShot01
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 258
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 138c343e6bc8eb130800000000000000
+      internalID: 3584457070558300209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireLoop001_14
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 901
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 24, y: 24, z: 24, w: 24}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af9b8097468e7ef00800000000000000
+      internalID: 1146140148414069242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireLoop001_13
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 901
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 24, y: 24, z: 24, w: 24}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de0992230008623e0800000000000000
+      internalID: -2078833439654965011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireLoop001_12
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 901
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 24, y: 24, z: 24, w: 24}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b61da18dda64ac0f0800000000000000
+      internalID: -1095985846842371733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireLoop001_10
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 387
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 24, y: 24, z: 24, w: 24}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd47f2ffcb73cb6a0800000000000000
+      internalID: -6432204882917231395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireLoop001_9
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 488
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 24, y: 24, z: 24, w: 24}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b5ec2544add44440800000000000000
+      internalID: 4919300390600369593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireLoop001_8
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 589
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 24, y: 24, z: 24, w: 24}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53a060470a451d6a0800000000000000
+      internalID: -6426262145162933707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireLoop001_11
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 690
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 24, y: 24, z: 24, w: 24}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e86b03536f4c9b820800000000000000
+      internalID: 2934593193941972622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireLoop001_6
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 791
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 24, y: 24, z: 24, w: 24}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de7a22a9f71f67f00800000000000000
+      internalID: 1114343488169879533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireLoop001_5
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 892
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 24, y: 24, z: 24, w: 24}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f15e0f1c3b316320800000000000000
+      internalID: 2549383993473520116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireLoop001_4
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 387
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 24, y: 24, z: 24, w: 24}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8792f8a87848f8b0800000000000000
+      internalID: -5118261293438822513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireLoop001_3
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 488
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 24, y: 24, z: 24, w: 24}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20cb980a0b60c73f0800000000000000
+      internalID: -901838469703549950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireLoop001_2
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 589
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 24, y: 24, z: 24, w: 24}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce7eddfc2fe72cfe0800000000000000
+      internalID: -1170233371828295700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireLoop001_1
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 690
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 24, y: 24, z: 24, w: 24}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45b609867e0a7ad70800000000000000
+      internalID: 9054382491603856212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireLoop001_0
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 791
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 24, y: 24, z: 24, w: 24}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fab5a295d9f5107f0800000000000000
+      internalID: -648131741954188369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireLoop001_7
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 892
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c44a148b3b23dff70800000000000000
+      internalID: 9222583359396488268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewExplosion010002-sheet_0
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6dce9b3c646df780800000000000000
+      internalID: -8647645293461975700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewExplosion010002-sheet_1
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 97
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28fe2adeadfec9250800000000000000
+      internalID: 5952896531045740418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewExplosion010002-sheet_2
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 194
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75647748602029220800000000000000
+      internalID: 2491055770904774231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewExplosion010002-sheet_4
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 291
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2704c18ddcfba5a20800000000000000
+      internalID: 3051962588311863410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewExplosion010002-sheet_5
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acaa8c01a114363a0800000000000000
+      internalID: -6673418642626401590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewExplosion010002-sheet_3
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 97
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c9703fdae0b2f130800000000000000
+      internalID: 3599133575035779524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewExplosion010002-sheet_7
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 194
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcc97929da92a1220800000000000000
+      internalID: 2457322372149517515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewExplosion010002-sheet_8
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 388
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 803ede38113b64330800000000000000
+      internalID: 3694837432113292040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewExplosion010002-sheet_9
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 485
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9df84fa0ffa935710800000000000000
+      internalID: 1680857506130464729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewExplosion010002-sheet_6
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 582
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2248e644adf1f67f0800000000000000
+      internalID: -617239601615043550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tankDustSprite004
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 690
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c89ff80e874b30800800000000000000
+      internalID: 577503608490162572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tankDustSprite005
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 291
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 708a92428398061d0800000000000000
+      internalID: -3359534447800506361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tankDustSprite006
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 679
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87491012d66b94460800000000000000
+      internalID: 7226507656914113656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tankDustSprite007
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 744
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48b48dbbfdbcdb010800000000000000
+      internalID: 1206344436994820996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tankDustSprite008
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 809
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2335093b614523bc0800000000000000
+      internalID: -3804886278696053966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tankShellSpin009
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 874
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e1b995de0ff5fab0800000000000000
+      internalID: -4974789774182600217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tankShellSpin008
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 939
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9f102f7cc274eb30800000000000000
+      internalID: 4315700565559484315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tankShellSpin006
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 291
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f753ab7e98137c240800000000000000
+      internalID: 4811869195236685183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tankShellSpin005
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 406ed5267cb327890800000000000000
+      internalID: -7461835905064638972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tankShellSpin004
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 65
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96ba74dc775081860800000000000000
+      internalID: 7500751191488834409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tankShellSpin003
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 130
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f56345744cb6e0180800000000000000
+      internalID: -9147255302388435361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tankDustSprite003
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 195
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f544b36d4cfab1b00800000000000000
+      internalID: 800426618731054175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tankShellSpin002
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 356
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91be06d317f35f410800000000000000
+      internalID: 1510183005646285593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tankShellSpin001
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 421
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9d77589df057f880800000000000000
+      internalID: -8577297915191001701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tankShellSpin007
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 486
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ddd8173dbb7ad520800000000000000
+      internalID: 2727628576929668567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tankDustSprite002
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 551
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af27890b263ad92b0800000000000000
+      internalID: -5576121119349902598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tankDustSprite006
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 616
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87491012d66b94460800000000000000
+      internalID: 7226507656914113656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tankDustSprite008
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 681
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2335093b614523bc0800000000000000
+      internalID: -3804886278696053966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tankSmokeSprite007
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 746
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd065e0bc45583bb0800000000000000
+      internalID: -4956117602047532835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tankSmokeSprite006
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 811
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9db038ca88de00c60800000000000000
+      internalID: 7782481327361821657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tankSmokeSprite005
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 876
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ec27a70ab6f5d4a0800000000000000
+      internalID: -6569073202597253915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tankSmokeSprite001
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 941
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68aee613566a74730800000000000000
+      internalID: 3983335348983753350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tankDustSprite001
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 260
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eb79a5d6a2bae370800000000000000
+      internalID: 8352684888530975718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tankSmokeSprite003
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34fa0f9bb5de128e0800000000000000
+      internalID: -1719832604461453501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tankSmokeSprite004
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 65
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d06deaaab151b950800000000000000
+      internalID: 6463036802426822871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tankSmokeSprite005
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 130
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ec27a70ab6f5d4a0800000000000000
+      internalID: -6569073202597253915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tankSmokeSprite006
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 195
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9db038ca88de00c60800000000000000
+      internalID: 7782481327361821657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tankSmokeSprite002
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 325
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93b1572bf4dd40fd0800000000000000
+      internalID: -2376531368978605255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tankSmokeSprite001
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 390
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68aee613566a74730800000000000000
+      internalID: 3983335348983753350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tankSmokeSprite007
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 455
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd065e0bc45583bb0800000000000000
+      internalID: -4956117602047532835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tankDustSprite007
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 520
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48b48dbbfdbcdb010800000000000000
+      internalID: 1206344436994820996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tankSmokeSprite003
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 585
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34fa0f9bb5de128e0800000000000000
+      internalID: -1719832604461453501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tankDustSprite005
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 650
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 708a92428398061d0800000000000000
+      internalID: -3359534447800506361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tankSmokeSprite002
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 715
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93b1572bf4dd40fd0800000000000000
+      internalID: -2376531368978605255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tankDustSprite003
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 780
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f544b36d4cfab1b00800000000000000
+      internalID: 800426618731054175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tankDustSprite002
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 845
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af27890b263ad92b0800000000000000
+      internalID: -5576121119349902598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tankDustSprite001
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 910
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eb79a5d6a2bae370800000000000000
+      internalID: 8352684888530975718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tankSmokeSprite004
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 260
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d06deaaab151b950800000000000000
+      internalID: 6463036802426822871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tankDustSprite004
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c89ff80e874b30800800000000000000
+      internalID: 577503608490162572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tankTrackPrintSprite03
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 993
+        width: 92
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1965329b519c68d0800000000000000
+      internalID: -2851744641551341282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienSpitSplash001_6
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 616
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd47f1ba500458140800000000000000
+      internalID: 4721250177457812701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienSpitSplash001_5
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 811
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4883fea43025e6650800000000000000
+      internalID: 6228005508795545732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienSpitSplash001_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 965
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4e6420bc446bec30800000000000000
+      internalID: 4389712542338149966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienSpitSplash001_3
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 965
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50ed610a5e18a9140800000000000000
+      internalID: 4727233582112103941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienSpitSplash001_2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 965
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa0f41f569906d6e0800000000000000
+      internalID: -1813251258525093713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienSpitSplash001_1
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 965
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd26ec826cc94b7c0800000000000000
+      internalID: -4056444989451902243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienSpitSplash001_0
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 965
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0aa3f0dc337ebb10800000000000000
+      internalID: 1999161989639940620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrackPrintSpriteSheet01_6
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 679
+        width: 46
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de711881c290f2680800000000000000
+      internalID: -8777787063727482899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrackPrintSpriteSheet01_8
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 755
+        width: 46
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 332c733a603b92420800000000000000
+      internalID: 2605810700500058675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrackPrintSpriteSheet01_5
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 762
+        width: 46
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cf0735b383eda650800000000000000
+      internalID: 6245898413053251527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrackPrintSpriteSheet01_9
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 356
+        width: 46
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 685fb282ae5cd3110800000000000000
+      internalID: 1242366681711113606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrackPrintSpriteSheet01_10
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 363
+        width: 46
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56b3a9e15903d46c0800000000000000
+      internalID: -4157613463971415195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrackPrintSpriteSheet01_11
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 370
+        width: 46
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e6a1a73b8d886d90800000000000000
+      internalID: -7104272783103645984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrackPrintSpriteSheet01_12
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 377
+        width: 46
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a3a8c76f38d8acf0800000000000000
+      internalID: -240704813228579935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrackPrintSpriteSheet01_13
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 993
+        width: 46
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50c3c718335d09d80800000000000000
+      internalID: -8245856500522927099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrackPrintSpriteSheet01_7
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 993
+        width: 46
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25d85968bc1243ff0800000000000000
+      internalID: -57383737228948142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrackPrintSpriteSheet01_4
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 1000
+        width: 46
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94dd228a5cef048c0800000000000000
+      internalID: -4016930742731612855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrackPrintSpriteSheet01_15
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 1000
+        width: 46
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f00bc5e0d215be940800000000000000
+      internalID: 5326440238252077071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrackPrintSpriteSheet01_2
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1004
+        width: 46
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7b7ab209cb665990800000000000000
+      internalID: -7397606826831086726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrackPrintSpriteSheet01_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 998
+        width: 46
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33432eb40ae374400800000000000000
+      internalID: 308283957686973491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrackPrintSpriteSheet01_0
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 998
+        width: 46
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c07499f90cb87780800000000000000
+      internalID: -8684985130356019004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrackPrintSpriteSheet01_14
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 998
+        width: 46
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fecac1831bcd0f9f0800000000000000
+      internalID: -436606510146212625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrackPrintSpriteSheet01_3
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 998
+        width: 46
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d1960905a09aca20800000000000000
+      internalID: 3083435933383954905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienSpit001
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 755
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07f1b5303623aa8c0800000000000000
+      internalID: -3987319119243698320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TankBullet01
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 1004
+        width: 14
+        height: 18
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29030dc072755ab70800000000000000
+      internalID: 8909623263052705938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlickerParticles001_4
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 993
+        width: 5
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67942838a70137880800000000000000
+      internalID: -8614523543851218570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlickerParticles001_3
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 993
+        width: 5
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85a22f9df002ce420800000000000000
+      internalID: 2660536732322245208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlickerParticles001_2
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 679
+        width: 5
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eef80c93e3c98e30800000000000000
+      internalID: 4506348284503719651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlickerParticles001_1
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 679
+        width: 5
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94cbd50635e23dd00800000000000000
+      internalID: 996190878212930633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlickerParticles001_0
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 679
+        width: 5
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2512352eabf7f1c20800000000000000
+      internalID: 3179400302584602962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -199,7 +199,7 @@ public class enemyRunner : MonoBehaviour
         {
             Instantiate(_enemyBullet, transform.position, Quaternion.identity);
             _myAS.PlayOneShot(_enemySpitClip, 0.5f);
-            Debug.Break();
+
         }
  
 

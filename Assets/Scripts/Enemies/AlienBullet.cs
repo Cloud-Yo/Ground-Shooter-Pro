@@ -14,7 +14,7 @@ public class AlienBullet : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        _myParent = GameObject.Find("RunnerCointainer");
+        _myParent = GameObject.Find("RunnerContainer");
         transform.SetParent(_myParent.transform);
         _playerHM = GameObject.Find("TankUIPanel").GetComponent<HealthManager>();
     }

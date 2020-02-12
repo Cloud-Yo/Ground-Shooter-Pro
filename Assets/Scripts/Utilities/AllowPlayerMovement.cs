@@ -18,9 +18,11 @@ public class AllowPlayerMovement : MonoBehaviour
             {
                 case 0:
                     collision.GetComponent<Player>().DisableMovement();
+                    Destroy(GetComponent<Collider2D>());
                     break;
                 case 1:
                     collision.GetComponent<Player>().AllowMovement();
+                    Destroy(GetComponent<Collider2D>());
                     break;
             }
         }

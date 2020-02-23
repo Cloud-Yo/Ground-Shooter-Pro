@@ -6,13 +6,26 @@ public class PowerUp : MonoBehaviour
 {
     [SerializeField] private float _speed = 2f;
     [SerializeField] private int _powerUpID;
-    [SerializeField] private GameObject[] _powerUpImg; 
+    [SerializeField] private GameObject[] _powerUpImg;
+
+    [SerializeField] private HealthManager _playerHP;
+    [SerializeField] private Shoot _playerGun;
   
      
     // Start is called before the first frame update
     void Start()
     {
-        
+        _playerHP = GameObject.Find("TankUIPanel").GetComponent<HealthManager>();
+        if(_playerHP == null)
+        {
+            Debug.LogError("PowerUp: _PlayerHP is NULL");
+        }
+
+        _playerGun = GameObject.Find("MainTurret").GetComponent<Shoot>();
+        if(_playerGun == null)
+        {
+            Debug.LogError("PowerUp:  _playerGun is NULL.");
+        }
     }
 
     // Update is called once per frame
@@ -39,14 +52,26 @@ public class PowerUp : MonoBehaviour
                     Destroy(this.gameObject);
                     break;
                 case 1: //Shields
-                    //collision.GetComponent<Player>();
                     collision.GetComponent<Player>().ActivateShields();
                     Destroy(this.gameObject);
                     break;
-                case 2: //Speed
-                    collision.GetComponent<Player>().ActivateSpeedBoost();
+                case 2: //Ammo
+                    _playerGun.ReloadAmmo(15);
                     Destroy(this.gameObject);
                     break;
+                case 3: //Ammo
+                    _playerGun.ReloadAmmo(15);
+                    Destroy(this.gameObject);
+                    break;
+                case 4: //+1 life
+                    _playerHP.AddLives();
+                    Destroy(this.gameObject);
+                    break;
+                case 5: //GrapeShot
+                    _playerGun.ActivateGrapeShot();
+                    Destroy(this.gameObject);
+                    break;
+
             }
            
 

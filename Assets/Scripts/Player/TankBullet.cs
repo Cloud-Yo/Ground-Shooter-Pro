@@ -19,7 +19,7 @@ public class TankBullet : MonoBehaviour
     {
         transform.Translate(Vector2.up * _speed * Time.deltaTime, Space.Self);
         StartCoroutine(ColorChange());
-        if(transform.position.y >= 9.25f)
+        if(transform.position.y >= 12f)
         {
             if(transform.parent != null)
             {

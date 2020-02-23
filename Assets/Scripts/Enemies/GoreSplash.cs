@@ -22,8 +22,8 @@ public class GoreSplash : MonoBehaviour
         vel.x = 0.5f;
         vel.y = -2.5f;
         vel.z = 0;
-        var trails = _AlienGore.trails;
-        trails.enabled = false;
+        //var trails = _AlienGore.trails;
+        //trails.enabled = false;
         _parentAS = GetComponentInParent<AudioSource>();
         
     }

@@ -15,6 +15,16 @@ public class UIManager : MonoBehaviour
     [SerializeField] private Text _humKillTxt;
     [SerializeField] private GameObject _gameOverTxt;
 
+ 
+
+
+
+    private void Start()
+    {
+      
+    }
+
+
 
     public void EnemyKillScore()
     {
@@ -46,4 +56,6 @@ public class UIManager : MonoBehaviour
     {
         _gameOverTxt.SetActive(true);
     }
+
+
 }

@@ -10,7 +10,7 @@ public class enemyRunner : MonoBehaviour
     [SerializeField] private int _pointsValue;
     [SerializeField] private bool _dead = false;
     [SerializeField] private int _damAmount = 35;
-    [SerializeField] private Animator _camAnimator;
+    //[SerializeField] private Animator _camAnimator;
     [SerializeField] private UIManager _uiMan;
     [SerializeField] private Player _player;
     
@@ -40,7 +40,7 @@ public class enemyRunner : MonoBehaviour
         }
         
         _myCounter = GameObject.Find("ScoreCounter").GetComponent<CounterScript>();
-        _camAnimator = GameObject.Find("Main Camera").GetComponent<Animator>();
+        //_camAnimator = GameObject.Find("Main Camera").GetComponent<Animator>();
         _uiMan = GameObject.Find("UIManager").GetComponent<UIManager>();
         if(GameObject.Find("Player") != null)
         {
@@ -73,11 +73,13 @@ public class enemyRunner : MonoBehaviour
             
             transform.position = new Vector2(Random.Range(-11.5f, 11.5f), 8.5f);
             _uiMan.EnemyMissedScore();
+            
+            /*
             if(_player != null)
             {
                 _player.TakeDamage(5);
             }
-           
+           */
             
             
         }
@@ -157,10 +159,12 @@ public class enemyRunner : MonoBehaviour
         }
     }
 
-    public void CamShaker()
+   /* public void CamShaker()
     {
         _camAnimator.SetTrigger("camShake");
     }
+   */
+
 
     private void DodgeObstacle()
     {

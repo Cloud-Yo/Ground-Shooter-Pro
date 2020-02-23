@@ -1,34 +1,37 @@
 fileFormatVersion: 2
-guid: 5ae4da22ef8d1c44290df052ade5725a
+guid: d4a488438be8d0f43b4b9909ffb1f383
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5071041615241268199
-    second: boostIcon_Shield
+      213: 3752669618069827194
+    second: DigitalNumbers001_0
   - first:
-      213: 5228485992870803584
-    second: boostIcon_TripShot
+      213: 690765148011805902
+    second: DigitalNumbers001_1
   - first:
-      213: -8891374902424086235
-    second: boostIcon_SpeedBoost
+      213: -7608735938529935256
+    second: DigitalNumbers001_2
   - first:
-      213: -8490979877495140960
-    second: boostIcon_BombRun
+      213: 1072356289921733949
+    second: DigitalNumbers001_3
   - first:
-      213: 6966148879649418255
-    second: boostIcon_Shield
+      213: 6809863494748309320
+    second: DigitalNumbers001_4
   - first:
-      213: -1590351699328679396
-    second: boostIcon_TripShot
+      213: 1161493801977830665
+    second: DigitalNumbers001_5
   - first:
-      213: 390412862800235083
-    second: boostIcon_Speed
+      213: -3985071909493259849
+    second: DigitalNumbers001_6
   - first:
-      213: 1471660506121560099
-    second: boostIcon_BombRun
+      213: 8857654827231152789
+    second: DigitalNumbers001_7
   - first:
-      213: 6007175638469657388
-    second: boostIcon_GrapeShot
+      213: -1621644558754553922
+    second: DigitalNumbers001_8
+  - first:
+      213: 3318117120629522697
+    second: DigitalNumbers001_9
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -47,11 +50,11 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-  isReadable: 1
+  isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
-  generateCubemap: 6
+  generateCubemap: 1
   cubemapConvolution: 0
   seamlessCubemap: 0
   textureFormat: 1
@@ -59,11 +62,11 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
+    aniso: 0
     mipBias: -100
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -90,7 +93,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -102,19 +105,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Windows Store Apps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -126,7 +117,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -138,7 +129,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -149,13 +140,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: boostIcon_Shield
+      name: DigitalNumbers001_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 16
-        height: 16
+        width: 15
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,20 +154,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0c2dff6f7bbca060800000000000000
-      internalID: 6966148879649418255
+      spriteID: a7ee3789229241430800000000000000
+      internalID: 3752669618069827194
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boostIcon_TripShot
+      name: DigitalNumbers001_1
       rect:
         serializedVersion: 2
-        x: 16
+        x: 15
         y: 0
-        width: 16
-        height: 16
+        width: 15
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,20 +175,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1243953e8fede9e0800000000000000
-      internalID: -1590351699328679396
+      spriteID: eccb6760e37169900800000000000000
+      internalID: 690765148011805902
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boostIcon_Speed
+      name: DigitalNumbers001_2
       rect:
         serializedVersion: 2
-        x: 32
+        x: 30
         y: 0
-        width: 16
-        height: 16
+        width: 15
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,20 +196,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4a83f22e660b6500800000000000000
-      internalID: 390412862800235083
+      spriteID: 860cc2a0af6586690800000000000000
+      internalID: -7608735938529935256
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boostIcon_BombRun
+      name: DigitalNumbers001_3
       rect:
         serializedVersion: 2
-        x: 48
+        x: 45
         y: 0
-        width: 16
-        height: 16
+        width: 15
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,20 +217,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 320e851ee636c6410800000000000000
-      internalID: 1471660506121560099
+      spriteID: d35d0753d56c1ee00800000000000000
+      internalID: 1072356289921733949
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boostIcon_GrapeShot
+      name: DigitalNumbers001_4
       rect:
         serializedVersion: 2
-        x: 64
+        x: 60
         y: 0
-        width: 16
-        height: 16
+        width: 15
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,8 +238,113 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c234d527a66cd5350800000000000000
-      internalID: 6007175638469657388
+      spriteID: 8478f5da4ce718e50800000000000000
+      internalID: 6809863494748309320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalNumbers001_5
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 0
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90dd4b385747e1010800000000000000
+      internalID: 1161493801977830665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalNumbers001_6
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 0
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b1444e463e22b8c0800000000000000
+      internalID: -3985071909493259849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalNumbers001_7
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 0
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59a0320b226bcea70800000000000000
+      internalID: 8857654827231152789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalNumbers001_8
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebf5d7b9dd2ce79e0800000000000000
+      internalID: -1621644558754553922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigitalNumbers001_9
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 0
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 901c34ae0f15c0e20800000000000000
+      internalID: 3318117120629522697
       vertices: []
       indices: 
       edges: []
@@ -256,7 +352,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 7c4e32889392c564bbaeb6fff94028b4
+    spriteID: 72a8b9987f5cc09418f1f3b3fbc3c709
     internalID: 0
     vertices: []
     indices: 

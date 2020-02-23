@@ -10,7 +10,7 @@ public class HealthManager : MonoBehaviour
     [SerializeField] private float _rotation;
     [SerializeField] private Color _underCol, _defaultCol, _newCol;
     [SerializeField] private float _Health = 100f;
-    [SerializeField] private float _currentHealth;
+    [SerializeField] private int _currentHealth;
     [SerializeField] private float _speed, _lerpSpeed;
     [SerializeField] private int _lifeCount = 3;
     [SerializeField] private Animator _hpAnimator;
@@ -26,7 +26,7 @@ public class HealthManager : MonoBehaviour
     {
         _Player = GameObject.Find("Player").GetComponent<Player>();
         _lifeCount = 3;
-        _currentHealth = _Health;
+        _currentHealth = 100;
         _rotation = 0f;
         _hpNeedle = GameObject.Find("tankUI_Needle");
         _myRender = GetComponent<SpriteRenderer>();
@@ -55,7 +55,7 @@ public class HealthManager : MonoBehaviour
 
             if (_lifeCount > 1 && _hpNeedle.transform.eulerAngles.z == 180)
             {
-                _currentHealth = _Health;
+                _currentHealth = 100;
                 _lifeCount--;
                 _lifeLights[_lifeCount].SetActive(false);
                 _rotation = 0;
@@ -98,7 +98,7 @@ public class HealthManager : MonoBehaviour
             }
             
         }
-             
+        
     }
 
     public void UpdateHealth(int dam)
@@ -127,5 +127,19 @@ public class HealthManager : MonoBehaviour
         {
             _newCol = _defaultCol;
         }
+    }
+
+    public void AddLives()
+    {
+
+        int hpDiff = (100 - _currentHealth) * -1;
+        UpdateHealth(hpDiff);
+        if (_lifeCount < 3)
+        {
+            _lifeCount++;
+            _lifeLights[_lifeCount -1].SetActive(true);
+
+        }
+ 
     }
 }

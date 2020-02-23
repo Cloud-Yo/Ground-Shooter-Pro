@@ -17,22 +17,24 @@ public class MotorPitch : MonoBehaviour
         _myAS = GetComponent<AudioSource>();
         _myAS.pitch = _startSpeed;
         _currentSpeed = _startSpeed;
+        _newSpeed = 1.25f;
     }
 
     void Update()
     {
         _pitchMod = Input.GetAxis("Vertical") * .15f;
-        _newSpeed = (GameManager._globalSpeed * 2.5f) + _pitchMod;
-        
 
-        
         if(GameManager._globalSpeed > 0)
         {
-            _myAS.pitch = Mathf.MoveTowards(_currentSpeed, _newSpeed, _speed * Time.deltaTime);
+            _myAS.pitch = Mathf.MoveTowards(_currentSpeed, _newSpeed + _pitchMod, _speed * Time.deltaTime);
             _currentSpeed = _myAS.pitch;
         }
         
+    
+    }
 
-         
+    public void ChangeSpeed(float speed)
+    {
+        _newSpeed = speed;
     }
 }

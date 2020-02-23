@@ -19,6 +19,7 @@ public class Shoot : MonoBehaviour
     [SerializeField] private ParticleSystem _muzzleFlash, _MFR, _MFL;
     [SerializeField] public float _canFire = -1f;
     [SerializeField] private float _fireRate = 5f;
+    [SerializeField] private float _specialFireRate;
     [SerializeField] private Object _myBullet;
     [SerializeField] private GameObject _muzzleEmpty;
     [SerializeField] private GameObject rotTarget;
@@ -47,6 +48,7 @@ public class Shoot : MonoBehaviour
         _myAmmoCounter = GameObject.Find("TankUIPanel").GetComponent<AmmoCounter>();
         _currentAmmo = _ammoMain;
         _myAmmoCounter.UpdateAmmoCounter(_currentAmmo);
+        _specialFireRate = _fireRate / 2;
 
         
     }
@@ -119,7 +121,7 @@ public class Shoot : MonoBehaviour
                     _myAudioSource.PlayOneShot(_noAmmoClip, 0.7f);
                     _PowerDownPS.Emit(15);
                     _sideCannonAnimator.SetBool("TSActive", _tripShotActive);
-                    _fireRate *= 2;
+                    _fireRate = _specialFireRate * 2;
                     ReloadAmmo(_ammoMain);
                 }
  
@@ -172,7 +174,11 @@ public class Shoot : MonoBehaviour
         _sideCannonAnimator.SetBool("TSActive", _tripShotActive);
         _myAudioSource.PlayOneShot(_sideCannonOnClip);
         _tripShotIcon.SetActive(true);
-        _fireRate /= 2;
+        if(_fireRate != _specialFireRate)
+        {
+            _fireRate = _specialFireRate;
+        }
+        
         _specialAmmo = 24;
         _myAmmoCounter.UpdateAmmoCounter(_specialAmmo);
         _myAmmoCounter.ChangeAmmoColor(1);

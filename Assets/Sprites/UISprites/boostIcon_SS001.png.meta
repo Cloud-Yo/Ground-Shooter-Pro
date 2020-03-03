@@ -29,6 +29,24 @@ TextureImporter:
   - first:
       213: 6007175638469657388
     second: boostIcon_GrapeShot
+  - first:
+      213: 6966148879649418255
+    second: boostIconShield
+  - first:
+      213: -1590351699328679396
+    second: boostIconTripShot
+  - first:
+      213: -8891374902424086235
+    second: boostIconSpeed
+  - first:
+      213: 1471660506121560099
+    second: boostIconBomb
+  - first:
+      213: -1981321965004079464
+    second: boostIconGrapeShot
+  - first:
+      213: 7715310798957267139
+    second: boostIconHomingMissle
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -149,7 +167,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: boostIcon_Shield
+      name: boostIconShield
       rect:
         serializedVersion: 2
         x: 0
@@ -157,7 +175,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -170,7 +188,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boostIcon_TripShot
+      name: boostIconTripShot
       rect:
         serializedVersion: 2
         x: 16
@@ -178,7 +196,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -191,28 +209,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boostIcon_Speed
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b4a83f22e660b6500800000000000000
-      internalID: 390412862800235083
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boostIcon_BombRun
+      name: boostIconBomb
       rect:
         serializedVersion: 2
         x: 48
@@ -220,7 +217,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -233,7 +230,28 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boostIcon_GrapeShot
+      name: boostIconSpeed
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 529503082ad7b9480800000000000000
+      internalID: -8891374902424086235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostIconGrapeShot
       rect:
         serializedVersion: 2
         x: 64
@@ -241,14 +259,35 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c234d527a66cd5350800000000000000
-      internalID: 6007175638469657388
+      spriteID: 89eb04a9b2ee084e0800000000000000
+      internalID: -1981321965004079464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostIconHomingMissle
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c8459f4b4a421b60800000000000000
+      internalID: 7715310798957267139
       vertices: []
       indices: 
       edges: []

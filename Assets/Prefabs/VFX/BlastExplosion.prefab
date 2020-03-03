@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 5731679158200522828}
   - component: {fileID: -6937491262429015670}
   - component: {fileID: 5610227260452437343}
+  - component: {fileID: 7701089085880896700}
+  - component: {fileID: -4362906848341189677}
   m_Layer: 0
   m_Name: BlastExplosion
   m_TagString: Explosion
@@ -115,7 +117,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -204,7 +206,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 0.5
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -374,7 +376,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 3
       scalar: 0.08
-      minScalar: 0.1
+      minScalar: 0.01
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -1393,7 +1395,7 @@ ParticleSystem:
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 0.98207563, b: 0.495283, a: 1}
-        key1: {r: 0.4811321, g: 0, b: 0, a: 1}
+        key1: {r: 0.990566, g: 0.014017418, b: 0.014017418, a: 1}
         key2: {r: 0, g: 0, b: 0, a: 0}
         key3: {r: 0, g: 0, b: 0, a: 0}
         key4: {r: 0, g: 0, b: 0, a: 0}
@@ -4831,8 +4833,8 @@ ParticleSystemRenderer:
   m_SortingOrder: 6
   m_RenderMode: 0
   m_SortMode: 0
-  m_MinParticleSize: 0.025
-  m_MaxParticleSize: 0.5
+  m_MinParticleSize: 0.01
+  m_MaxParticleSize: 0.08
   m_CameraVelocityScale: 0
   m_VelocityScale: 0
   m_LengthScale: 2
@@ -4852,3 +4854,29 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
+--- !u!114 &7701089085880896700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8343983570855132401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c636f9e0c9af69d45868905ecb168223, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _speed: 1
+--- !u!114 &-4362906848341189677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8343983570855132401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22fd2f762020f0449b6b7b6c923446da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _explosionClip: {fileID: 8300000, guid: 4a706f4084357a24aae88bbfc153ec71, type: 3}

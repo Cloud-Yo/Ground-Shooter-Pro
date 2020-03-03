@@ -12,6 +12,7 @@ TagManager:
   - Explosion
   - AlienBullet
   - Destructible
+  - Mimic
   layers:
   - Default
   - TransparentFX
@@ -25,8 +26,8 @@ TagManager:
   - ParticleKiller
   - PostProcessing
   - Player
-  - 
-  - 
+  - PowerUp
+  - TankBullet
   - 
   - 
   - 

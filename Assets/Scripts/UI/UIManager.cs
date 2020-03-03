@@ -14,6 +14,8 @@ public class UIManager : MonoBehaviour
     [SerializeField] private int _humKilled;
     [SerializeField] private Text _humKillTxt;
     [SerializeField] private GameObject _gameOverTxt;
+    [SerializeField] private int _hiScore = 0;
+    [SerializeField] private Text _hiScoreTXT;
 
  
 
@@ -21,7 +23,23 @@ public class UIManager : MonoBehaviour
 
     private void Start()
     {
-      
+        _hiScore = PlayerPrefs.GetInt("hiScore");
+        if (_hiScore == 0)
+        {
+            _hiScoreTXT.text = "0000";
+        }
+        else
+        {
+            if(_hiScore < 1000 && _hiScore > 99)
+            {
+                _hiScoreTXT.text = "0" + _hiScore.ToString();
+            }
+            else if(_hiScore <= 99 && _hiScore > 9)
+            {
+                _hiScoreTXT.text = "00" +_hiScore.ToString();
+            }
+         
+        }
     }
 
 
@@ -56,6 +74,7 @@ public class UIManager : MonoBehaviour
     {
         _gameOverTxt.SetActive(true);
     }
+
 
 
 }

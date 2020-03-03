@@ -11,7 +11,11 @@ public class GoreSplash : MonoBehaviour
 
     void Start()
     {
-        _AlienGore = GetComponentInParent<ParticleSystem>();
+        if(_AlienGore == null)
+        {
+            _AlienGore = GetComponentInParent<ParticleSystem>();
+        }
+
         _AlienGore.Stop();
         var main = _AlienGore.main;
         main.loop = true;
@@ -24,7 +28,11 @@ public class GoreSplash : MonoBehaviour
         vel.z = 0;
         //var trails = _AlienGore.trails;
         //trails.enabled = false;
-        _parentAS = GetComponentInParent<AudioSource>();
+        if(_parentAS == null)
+        {
+            _parentAS = GetComponentInParent<AudioSource>();
+        }
+
         
     }
 

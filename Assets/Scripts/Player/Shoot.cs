@@ -11,11 +11,16 @@ public class Shoot : MonoBehaviour
     [SerializeField] private Player _player;
     [SerializeField] private bool _tripShotActive;
     [SerializeField] private bool _grapeShotActive;
+    [SerializeField] private bool _HomingMissleActive; //use for homing missle
+    [SerializeField] private bool _mainCannonActive; //use this for main fire
     [SerializeField] private bool _weaponsHot = false;
     [SerializeField] private GameObject _tripShot;
     [SerializeField] private GameObject _tripShotIcon;
     [SerializeField] private GameObject _grapeShot;
     [SerializeField] private GameObject _grapeShotIcon;
+    [SerializeField] private GameObject _HomingMissle;
+    [SerializeField] private GameObject _HomingMissleIcon;
+    [SerializeField] private Transform _misslePod;
     [SerializeField] private ParticleSystem _muzzleFlash, _MFR, _MFL;
     [SerializeField] public float _canFire = -1f;
     [SerializeField] private float _fireRate = 5f;
@@ -23,7 +28,7 @@ public class Shoot : MonoBehaviour
     [SerializeField] private Object _myBullet;
     [SerializeField] private GameObject _muzzleEmpty;
     [SerializeField] private GameObject rotTarget;
-    [SerializeField] private int _ammoMain = 15, _currentAmmo, _specialAmmo;
+    [SerializeField] private int _ammoMain = 15, _currentAmmo, _specialAmmo,  _maxAmmo;
     [SerializeField] private AmmoCounter _myAmmoCounter;
 
     [SerializeField] private AudioSource _myAudioSource;
@@ -31,6 +36,7 @@ public class Shoot : MonoBehaviour
     [SerializeField] private AudioClip _shellEjectClip, _tripShellEjectClip;
     [SerializeField] private AudioClip _sideCannonOnClip, _sideCannonOffClip;
     [SerializeField] private AudioClip _noAmmoClip;
+    
 
     void Start()
     {
@@ -49,8 +55,10 @@ public class Shoot : MonoBehaviour
         _currentAmmo = _ammoMain;
         _myAmmoCounter.UpdateAmmoCounter(_currentAmmo);
         _specialFireRate = _fireRate / 2;
+        _maxAmmo = 50;
+        _myAmmoCounter.UpdateMaxAmmo(_maxAmmo);
 
-        
+
     }
 
     void Update()
@@ -59,9 +67,9 @@ public class Shoot : MonoBehaviour
        //RotTurret();
 
         FireBullet();
-        if(_currentAmmo > 99)
+        if(_currentAmmo > _maxAmmo)
         {
-            _currentAmmo = 99;
+            _currentAmmo = _maxAmmo;
         }
     }
 
@@ -91,7 +99,7 @@ public class Shoot : MonoBehaviour
             _canFire = Time.time + _fireRate;
            
 
-            if (!_tripShotActive && !_grapeShotActive && _currentAmmo > 0)
+            if (_mainCannonActive && _currentAmmo > 0) 
             {
                 _myAnimator.SetTrigger("FireMain");
                 _muzzleFlash.Emit(1);
@@ -107,6 +115,7 @@ public class Shoot : MonoBehaviour
                     _specialAmmo -= 3;
                     _myAmmoCounter.UpdateAmmoCounter(_specialAmmo);
                     Instantiate(_tripShot, transform.position, Quaternion.identity);
+                    _myAnimator.SetTrigger("FireMain");
                     _sideCannonAnimator.SetTrigger("tripleShot");
                     _myAudioSource.PlayOneShot(_tripShootClip);
                     _MFR.Emit(1);
@@ -122,7 +131,8 @@ public class Shoot : MonoBehaviour
                     _PowerDownPS.Emit(15);
                     _sideCannonAnimator.SetBool("TSActive", _tripShotActive);
                     _fireRate = _specialFireRate * 2;
-                    ReloadAmmo(_ammoMain);
+                    ReloadAmmo(_ammoMain / 3);
+                    _mainCannonActive = true;
                 }
  
             }
@@ -144,8 +154,28 @@ public class Shoot : MonoBehaviour
                     _grapeShotIcon.SetActive(false);
                     _player.PowerDownAudio();
                     _PowerDownPS.Emit(15);
-                    ReloadAmmo(_ammoMain);
+                    ReloadAmmo(_ammoMain / 3);
+                    _mainCannonActive = true;
 
+                }
+            }
+            else if(_HomingMissleActive)
+            {
+                if(_specialAmmo >=1)
+                {
+                    _specialAmmo--;
+                    _myAmmoCounter.UpdateAmmoCounter(_specialAmmo);
+                    Instantiate(_HomingMissle, _misslePod.position, Quaternion.identity);
+                }
+                else if(_specialAmmo == 0)
+                {
+                    _myAudioSource.PlayOneShot(_noAmmoClip, 0.7f);
+                    _HomingMissleActive = false;
+                    _HomingMissleIcon.SetActive(false);
+                    _player.PowerDownAudio();
+                    _PowerDownPS.Emit(15);
+                    ReloadAmmo(_ammoMain / 3);
+                    _mainCannonActive = true;
                 }
             }
             else if ( _currentAmmo == 0)
@@ -170,6 +200,12 @@ public class Shoot : MonoBehaviour
             _grapeShotActive = false;
             _grapeShotIcon.SetActive(false);
         }
+        else if (_HomingMissleActive)
+        {
+            _HomingMissleActive = false;
+            _HomingMissleIcon.SetActive(false);
+        }
+        _mainCannonActive = false;
         _tripShotActive = true;
         _sideCannonAnimator.SetBool("TSActive", _tripShotActive);
         _myAudioSource.PlayOneShot(_sideCannonOnClip);
@@ -181,6 +217,7 @@ public class Shoot : MonoBehaviour
         
         _specialAmmo = 24;
         _myAmmoCounter.UpdateAmmoCounter(_specialAmmo);
+        _myAmmoCounter.UpdateMaxAmmo(_specialAmmo);
         _myAmmoCounter.ChangeAmmoColor(1);
         
      }
@@ -200,15 +237,17 @@ public class Shoot : MonoBehaviour
     public void ActivateWeapons()
     {
         _weaponsHot = !_weaponsHot;
+        _mainCannonActive = !_mainCannonActive;
     }
 
     public void ReloadAmmo(int ammo)
     {
         
         _currentAmmo += ammo;
-        if(!_tripShotActive && !_grapeShotActive)
+        if(!_tripShotActive && !_grapeShotActive && !_HomingMissleActive)
         {
             _myAmmoCounter.UpdateAmmoCounter(_currentAmmo);
+            _myAmmoCounter.UpdateMaxAmmo(_maxAmmo);
             _myAmmoCounter.ChangeAmmoColor(0);
         }
         
@@ -225,10 +264,42 @@ public class Shoot : MonoBehaviour
             _sideCannonAnimator.SetBool("TSActive", _tripShotActive);
             _fireRate *= 2;
         }
+        else if(_HomingMissleActive)
+        {
+            _HomingMissleActive = false;
+            _HomingMissleIcon.SetActive(false);
+        }
+        _mainCannonActive = false;
         _grapeShotIcon.SetActive(true);
         _specialAmmo = 12;
         _myAmmoCounter.UpdateAmmoCounter(_specialAmmo);
+        _myAmmoCounter.UpdateMaxAmmo(_specialAmmo);
         _myAmmoCounter.ChangeAmmoColor(2);
 
     }
+
+    public void ActivateHomingMissle()
+    {
+        _HomingMissleActive = true;
+        _HomingMissleIcon.SetActive(true);
+        if (_tripShotActive)
+        {
+            _tripShotIcon.SetActive(false);
+            _tripShotActive = false;
+            _myAudioSource.PlayOneShot(_sideCannonOffClip);
+            _sideCannonAnimator.SetBool("TSActive", _tripShotActive);
+            _fireRate *= 2;
+        }
+        else if(_grapeShotActive)
+        {
+            _grapeShotActive = false;
+            _grapeShotIcon.SetActive(false);
+        }
+        _mainCannonActive = false;
+        _specialAmmo = 3;
+        _myAmmoCounter.UpdateAmmoCounter(_specialAmmo);
+        _myAmmoCounter.UpdateMaxAmmo(_specialAmmo);
+        _myAmmoCounter.ChangeAmmoColor(3);
+    }
+
 }

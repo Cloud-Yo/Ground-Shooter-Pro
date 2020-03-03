@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3485412306758245820}
   - component: {fileID: 3485412306758245823}
   - component: {fileID: 9173626367716900535}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TankTrap2
   m_TagString: Obstacle
   m_Icon: {fileID: 0}

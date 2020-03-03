@@ -125,8 +125,8 @@ MonoBehaviour:
   _myCounter: {fileID: 0}
   _pointsValue: 35
   _dead: 0
+  didFire: 0
   _damAmount: 25
-  _camAnimator: {fileID: 0}
   _uiMan: {fileID: 0}
   _player: {fileID: 0}
   _enemyBullet: {fileID: 1873332701609992500, guid: d0dd8e10276a16942946f292a7bc3ee0,
@@ -139,6 +139,12 @@ MonoBehaviour:
   obstacleLayerMask:
     serializedVersion: 2
     m_Bits: 256
+  powerUpLayerMask:
+    serializedVersion: 2
+    m_Bits: 4096
+  _bulletLayerMask:
+    serializedVersion: 2
+    m_Bits: 8192
 --- !u!50 &780542102
 Rigidbody2D:
   serializedVersion: 4

@@ -55,7 +55,7 @@ public class CounterScript : MonoBehaviour
             _totalPoints = _maxPoints;
         }
         _inputPoints = _points;
-        Debug.Log("Total Score: " + _totalPoints);
+        //Debug.Log("Total Score: " + _totalPoints);
  
 
         for (int n = 0; n < _matList.Length; n++)
@@ -68,6 +68,12 @@ public class CounterScript : MonoBehaviour
 
             //Debug.Log("Number " + n + ": " + _cogNumbers[n]);
         }
+
+    }
+
+    public void SaveHiScore()
+    {
+        PlayerPrefs.SetInt("hiScore", _totalPoints);
 
     }
 }

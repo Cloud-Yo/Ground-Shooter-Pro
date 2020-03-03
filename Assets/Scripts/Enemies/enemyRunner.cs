@@ -9,8 +9,10 @@ public class enemyRunner : MonoBehaviour
     [SerializeField] private CounterScript _myCounter;
     [SerializeField] private int _pointsValue;
     [SerializeField] private bool _dead = false;
+    [SerializeField] private bool didFire = false;
+    [SerializeField] private bool _bulletSeen = false;
     [SerializeField] private int _damAmount = 35;
-    //[SerializeField] private Animator _camAnimator;
+    [SerializeField] private float _jumpTargetX = 0;
     [SerializeField] private UIManager _uiMan;
     [SerializeField] private Player _player;
     
@@ -23,7 +25,7 @@ public class enemyRunner : MonoBehaviour
  
 
     [SerializeField] private Collider2D myCollider;
-    [SerializeField] private LayerMask obstacleLayerMask;
+    [SerializeField] private LayerMask obstacleLayerMask, powerUpLayerMask, _bulletLayerMask;
 
 
 
@@ -40,7 +42,6 @@ public class enemyRunner : MonoBehaviour
         }
         
         _myCounter = GameObject.Find("ScoreCounter").GetComponent<CounterScript>();
-        //_camAnimator = GameObject.Find("Main Camera").GetComponent<Animator>();
         _uiMan = GameObject.Find("UIManager").GetComponent<UIManager>();
         if(GameObject.Find("Player") != null)
         {
@@ -50,9 +51,10 @@ public class enemyRunner : MonoBehaviour
         {
             _player = null;
         }
-        
+        _jumpTargetX = 0;
 
-    }
+
+}
 
 
     void Update()
@@ -60,34 +62,31 @@ public class enemyRunner : MonoBehaviour
         if(!_dead)
         {
             _speed = GameManager._globalSpeed * 8f;
+            transform.Translate(new Vector2(_jumpTargetX, -1) * _speed * Time.deltaTime);
         }
         else if(_dead)
         {
             _speed = GameManager._globalSpeed * 4f;
+            transform.Translate(Vector2.down * _speed * Time.deltaTime);
         }
         
-        transform.Translate(Vector2.down * _speed * Time.deltaTime);
+     
         transform.position = new Vector2(Mathf.Clamp(transform.position.x, -11.5f, 11.5f), transform.position.y);
         if(transform.position.y <= -8f && _dead != true)
         {
             
             transform.position = new Vector2(Random.Range(-11.5f, 11.5f), 8.5f);
             _uiMan.EnemyMissedScore();
+            didFire = false;
             
-            /*
-            if(_player != null)
-            {
-                _player.TakeDamage(5);
-            }
-           */
-            
-            
+                    
         }
-        else if(transform.position.y <= -11f && _dead == true)
+        else if(transform.position.y <= -12.5f && _dead == true)
         {
             Destroy(this.gameObject);
         }
         DodgeObstacle();
+        DestroyPowerup();
 
 
         if (_player == null)
@@ -99,20 +98,24 @@ public class enemyRunner : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.tag == "Bullet" && transform.tag == "Enemy")
+        if(collision.tag == "Bullet" || collision.tag == "Explosion")
         {
 
+            if(transform.tag == "Enemy")
+            {
+                transform.tag = "Untagged";
+                _dead = true;
+                StopCoroutine(EnemyShootingRoutine());
+                GetComponent<Collider2D>().enabled = false;
+                GetComponent<Animator>().SetBool("death", true);
+                GetComponent<ParticleSystem>().Play();
+                GetComponent<SpriteRenderer>().sortingOrder = 0;
+                _myAS.PlayOneShot(_EnemyPopClip);
+                _myCounter.PointsToCounter(_pointsValue);
+                _uiMan.EnemyKillScore();
             
-            transform.tag = "Untagged";
-            _dead = true;
-            StopCoroutine(EnemyShootingRoutine());
-            GetComponent<Collider2D>().enabled = false;
-            GetComponent<Animator>().SetBool("death", true);
-            GetComponent<ParticleSystem>().Play();
-            GetComponent<SpriteRenderer>().sortingOrder = 0;
-            _myAS.PlayOneShot(_EnemyPopClip);
-            _myCounter.PointsToCounter(_pointsValue);
-            _uiMan.EnemyKillScore();
+            }
+  
 
         }
 
@@ -159,22 +162,19 @@ public class enemyRunner : MonoBehaviour
         }
     }
 
-   /* public void CamShaker()
-    {
-        _camAnimator.SetTrigger("camShake");
-    }
-   */
 
 
     private void DodgeObstacle()
     {
         RaycastHit2D boxCaster = Physics2D.BoxCast(myCollider.bounds.center,myCollider.bounds.size, 0f, Vector2.down, 3f, obstacleLayerMask);
+        RaycastHit2D bulletSense = Physics2D.BoxCast(myCollider.bounds.center, new Vector2(.5f, 1f), 0f, Vector2.down, 5f, _bulletLayerMask);
         Color rayColor;
+        bool _bulletSeen = false;
 
         if(boxCaster.collider != null)
         {
             rayColor = Color.green;
-
+           
             Collider2D _col = boxCaster.collider;
             Vector2 _colCenter = _col.bounds.center;
 
@@ -192,20 +192,90 @@ public class enemyRunner : MonoBehaviour
         {
             rayColor = Color.red;
         }
+
+        if (bulletSense.collider != null && !_dead && !_bulletSeen)
+        {
+            rayColor = Color.blue;
+
+            Collider2D _col = bulletSense.collider;
+            Vector2 _myCenter = _col.bounds.center;
+            int myDir = 0;
+            int Jump = Random.Range(0, 3);
+            _bulletSeen = true;
+            if (transform.position.x > _myCenter.x)
+            {
+                myDir = 1;
+            }
+            else if (transform.position.x <= _myCenter.x)
+            {
+                myDir = -1;
+            }
+            StartCoroutine(AvoidBulletRoutine(_bulletSeen, myDir, Jump));
+
+        }
+
         Debug.DrawRay(myCollider.bounds.center, Vector2.down, rayColor);
+    }
+
+    private void DestroyPowerup()
+    {
+        RaycastHit2D _myRay = Physics2D.Raycast(myCollider.bounds.center, Vector2.down, 5f, powerUpLayerMask);
+        
+        if(_myRay.collider != null)
+        {
+            
+            if (_dead == false && !didFire)
+            {
+                Instantiate(_enemyBullet, transform.position, Quaternion.identity);
+                _myAS.PlayOneShot(_enemySpitClip, 0.5f);
+                didFire = true;
+
+            }
+        }
     }
 
     IEnumerator EnemyShootingRoutine()
     {
 
-        yield return new WaitForSeconds(Random.Range(5f, 7f));
-        if(_dead == false)
+        yield return new WaitForSeconds(Random.Range(2f, 5f));
+        if (_dead == false)
         {
             Instantiate(_enemyBullet, transform.position, Quaternion.identity);
             _myAS.PlayOneShot(_enemySpitClip, 0.5f);
-
         }
  
+
+    }
+
+    IEnumerator AvoidBulletRoutine(bool detected, int dir, int jumper)
+    {
+
+
+        if (jumper == 0 && detected == true)
+        {
+
+            switch (dir)
+            {
+                case 0:
+                    _jumpTargetX = 1;
+                    break;
+                case 1:
+                    _jumpTargetX = -1;
+                    break;
+            }
+            yield return new WaitForSeconds(0.5f);
+            _bulletSeen = false;
+            detected = false;
+            _jumpTargetX = 0;
+        }
+        else if(jumper != 0 && detected == true)
+        {
+ 
+            yield return new WaitForSeconds(0.5f);
+            _bulletSeen = false;
+            detected = false;
+            _jumpTargetX = 0;
+        }
 
     }
 }

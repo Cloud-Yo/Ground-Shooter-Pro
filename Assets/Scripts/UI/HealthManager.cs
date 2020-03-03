@@ -117,7 +117,6 @@ public class HealthManager : MonoBehaviour
         if(collision.tag == "Player")
         {
             _newCol = _underCol;
-            Debug.Log("Player is under UI");
         }
     }
 

@@ -11,13 +11,17 @@ public class Player : MonoBehaviour
     [SerializeField] private float _currentSpeed;
     [SerializeField] private float _speedTimer = 3.0f;
     [SerializeField] private float _speedBoostTime = 3.0f;
+    [SerializeField] private float _attractRadius = 5f;
     [SerializeField] private int _shieldHP = 3;
+    [SerializeField] private LayerMask _pULM;
     [SerializeField] private ParticleSystem _trackParts;
     [SerializeField] private ParticleSystem _PowerUpPS;
     [SerializeField] private ParticleSystem _PowerDownPS;
+    [SerializeField] private ParticleSystem _AttractionPS;
     [SerializeField] private Animator _myAnimator;
     [SerializeField] private bool _canMove = false;
     [SerializeField] private bool _speedBoostActive = false;
+    [SerializeField] private bool _attractingPU = false;
     [SerializeField] private Shoot _tankShot;
     [SerializeField] private GameObject _explosion;
     [SerializeField] private SpawnManager _mySpawnManager;
@@ -33,6 +37,7 @@ public class Player : MonoBehaviour
     [SerializeField] private MotorPitch _myEngine;
     [SerializeField] private SpeedBoostMeter _mySBM;
     [SerializeField] private SpriteRenderer _ShieldRenderer;
+    [SerializeField] private CounterScript _myCounter;
     [SerializeField] private Color _1hitCol, _2hitCol;
   
 
@@ -40,6 +45,8 @@ public class Player : MonoBehaviour
     [SerializeField] private AudioClip _shieldsOnClip, _shieldsOffClip;
     [SerializeField] private AudioClip _powerUpClip, _powerDownClip;
     [SerializeField] private AudioClip _slowDownClip, _shieldHitClip;
+
+    [SerializeField] private AudioSource _attractAS;
     
 
     void Start()
@@ -53,6 +60,7 @@ public class Player : MonoBehaviour
         _myEngine = GameObject.Find("TankMotor").GetComponent<MotorPitch>();
         _mySBM = GameObject.Find("SpeedBarSprite").GetComponent<SpeedBoostMeter>();
         _currentSpeed = _speed;
+        _AttractionPS.Stop();
     }
 
     void Update()
@@ -75,6 +83,8 @@ public class Player : MonoBehaviour
 
             _myAnimator.SetBool("isMoving", false);
         }
+
+        AttractPowerUp();
 
 
     }
@@ -176,6 +186,8 @@ public class Player : MonoBehaviour
         _myGameManager.GameIsOver();
         _mySpawnManager._playerAlive = false;
         Destroy(gameObject);
+        _myCounter.SaveHiScore();
+        
     }
 
     public void ActivateShields()
@@ -190,11 +202,23 @@ public class Player : MonoBehaviour
 
     private void BreakShields()
     {
-        
-        _myShieldBool = false;
-        _PowerDownPS.Emit(15);
-        StartCoroutine(TurnOffShields());
 
+            _myShieldBool = false;
+            _PowerDownPS.Emit(15);
+            StartCoroutine(TurnOffShields());
+
+    }
+
+    public void MimicAttack(int dam)
+    {
+        if(_myShieldBool)
+        {
+            BreakShields();
+        }
+        else
+        {
+            TakeDamage(dam);
+        }
     }
 
     IEnumerator TurnOffShields()
@@ -225,7 +249,7 @@ public class Player : MonoBehaviour
     {
 
         
-        if (!_myShieldBool && dam > 10)
+        if (!_myShieldBool)
         {
             _myHPManager.UpdateHealth(dam);
             _camAnimator.SetTrigger("camShake");
@@ -306,6 +330,55 @@ public class Player : MonoBehaviour
     public void PowerDownAudio()
     {
         _myAS.PlayOneShot(_powerDownClip, 0.5f);
+    }
+
+    private void AttractPowerUp()
+    {
+        Collider2D[] _myPUs = Physics2D.OverlapCircleAll(transform.position, _attractRadius, _pULM);
+        
+        if(_myPUs != null)
+        {
+            if(Input.GetKey(KeyCode.C))
+            {
+                if (!_AttractionPS.isPlaying)
+                {
+                    _AttractionPS.Play();
+                }
+
+                if(!_attractAS.isPlaying)
+                {
+                    _attractAS.Play();
+                }
+
+                Debug.Log("PowerUps in reach: " + _myPUs.Length);
+                for (int i = 0; i < _myPUs.Length; i++)
+                {
+                    _myPUs[i].GetComponent<PowerUp>().AttractedState();
+ 
+                }
+            }
+            else if(Input.GetKeyUp(KeyCode.C))
+            {
+                Debug.Log("Powerups released!");
+                _AttractionPS.Stop();
+                _attractAS.Stop();
+                for (int i = 0; i < _myPUs.Length; i++)
+                {
+                    _myPUs[i].GetComponent<PowerUp>().NotAttractedState();
+                    
+                }
+            }
+  
+     
+        }
+        
+
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.green;
+        Gizmos.DrawWireSphere(transform.position, _attractRadius);
     }
 
 }
